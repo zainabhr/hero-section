@@ -1,4 +1,4 @@
-// import "../App.css"
+import heroImg from '/src/assets/hero-img.jpg'
 
 export default function HeroSection(){
     return(
@@ -12,7 +12,7 @@ export default function HeroSection(){
                 <button className='text-[blue] border border-solid border-[rgb(67,67,255)] bg-transparent transition-[background-color] duration-[0.8s]  hover:bg-[lightblue] hover:text-[rgb(71,70,70)] hover:scale-[1.2]'>Watch Demo </button>
             </div>
             <div className='right'>
-                <img src="/src/assets/hero-img.jpg" alt="Hero Illustration" className="w-full h-full shadow-[-10px_0_15px_10px_gray] rounded-[25px]" />
+                <img src={heroImg} alt="Hero Illustration" className="w-full h-full shadow-[-10px_0_15px_10px_gray] rounded-[25px]" />
             </div> 
         </div>
         </>
