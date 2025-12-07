@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.right{
+  width: 50%;
+}
+
+@media (max-width: 650px) {
+  .mobile-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .mobile-container h1{
+    font-size: xxx-large;
+    margin-top: 10px;
+  }
+
+  .mobile-container button{
+    margin: 10px 5px;
+  }
+
+  .right{
+    width: 75%;
+    padding: 10px;
+  }
+}
